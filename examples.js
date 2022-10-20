@@ -1,23 +1,22 @@
-console.log("Examples work!");
-let myFirstFunction = (name, greeting) => {
-    console.log(greeting + " mam na imię " + name + "!");
-};
-myFirstFunction("Maja", "Hej");
-myFirstFunction("Wojciech", "Dzień dobry");
-myFirstFunction("Raymond", "Czaisz");
-myFirstFunction("Mietek", "Siemka");
+let bool = 5 > 10;
+console.log(bool);
 
-let multiplyBy2 = (num) => {
-    console.log(num*2);
-}
-multiplyBy2(4);
+let bool2 = 1 === 1;
+console.log(bool2);
 
-let multiply = (a, b) => {
-    console.log(a * b)
-};
-multiply(2,5);
+let bool3 = 1 !== 2;
+console.log(bool3);
 
-let squere = (num) => {
-    console.log(num * num);
+let bool4 = 'Mietek' === 'Mietek';
+console.log(bool4);
+
+let isBiggerThan10 = (number) => {
+	if (number > 10) {
+		console.log('Liczba jest większa niż 10');
+	} else {
+		console.log('Liczba nie jest większa od 10');
+	}
 };
-squere(4);
+
+isBiggerThan10(20);
+isBiggerThan10(5);
